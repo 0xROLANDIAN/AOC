@@ -5,26 +5,15 @@
 # AOC Day two
 #
 ##############################
+#P1 P2
+#A  X Rock  1
+#B  Y Paper 2
+#C  Z Scissors 3
 
-#A Rock  1
-#B Paper 2
-#C Scissors 3
-#X Rock  1
-#Y Paper 2
-#Z Scissors  3
-
-#Lose
-#A Z 3 
-#B X 1
-#C Y 2
-#Win
-#A Y 2 
-#B Z 3
-#C X 1
-#Draw
-#A X 1
-#B Y 2
-#C Z 3
+# Lose  # Win   # Draw  
+# A Z 3 # A Y 2 # A X 1 
+# B X 1 # B Z 3 # B Y 2
+# C Y 2 # C X 1 # C Z 3
 
 def dataset():
    with open('input.txt') as f:
